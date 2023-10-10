@@ -4207,7 +4207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/api-server@npm:6.4.0-rc.45+cd3494993":
+"@redwoodjs/api-server@npm:6.4.0-rc.45, @redwoodjs/api-server@npm:6.4.0-rc.45+cd3494993":
   version: 6.4.0-rc.45
   resolution: "@redwoodjs/api-server@npm:6.4.0-rc.45"
   dependencies:
@@ -4751,7 +4751,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/web-server@npm:6.4.0-rc.45+cd3494993":
+"@redwoodjs/web-server@npm:6.4.0-rc.45, @redwoodjs/web-server@npm:6.4.0-rc.45+cd3494993":
   version: 6.4.0-rc.45
   resolution: "@redwoodjs/web-server@npm:6.4.0-rc.45"
   dependencies:
@@ -6627,6 +6627,7 @@ __metadata:
   resolution: "api@workspace:api"
   dependencies:
     "@redwoodjs/api": 6.4.0-rc.45
+    "@redwoodjs/api-server": 6.4.0-rc.45
     "@redwoodjs/graphql-server": 6.4.0-rc.45
   languageName: unknown
   linkType: soft
@@ -20299,6 +20300,7 @@ __metadata:
     "@redwoodjs/router": 6.4.0-rc.45
     "@redwoodjs/vite": 6.4.0-rc.45
     "@redwoodjs/web": 6.4.0-rc.45
+    "@redwoodjs/web-server": 6.4.0-rc.45
     "@types/react": 18.2.14
     "@types/react-dom": 18.2.6
     humanize-string: 2.1.0
