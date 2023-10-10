@@ -6628,7 +6628,11 @@ __metadata:
   dependencies:
     "@redwoodjs/api": 6.4.0-rc.45
     "@redwoodjs/api-server": 6.4.0-rc.45
+    "@redwoodjs/fastify": 6.4.0-rc.45+cd3494993
     "@redwoodjs/graphql-server": 6.4.0-rc.45
+    "@redwoodjs/project-config": 6.4.0-rc.45+cd3494993
+    chalk: 4.1.2
+    fastify: ^4.23.2
   languageName: unknown
   linkType: soft
 
@@ -10937,7 +10941,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastify@npm:4.23.2":
+"fastify@npm:4.23.2, fastify@npm:^4.23.2":
   version: 4.23.2
   resolution: "fastify@npm:4.23.2"
   dependencies:

@@ -22,3 +22,6 @@
 
 [experimental.dockerfile]
 	enabled = true
+
+[experimental.serverFile]
+	enabled = true

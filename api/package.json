@@ -5,6 +5,10 @@
   "dependencies": {
     "@redwoodjs/api": "6.4.0-rc.45",
     "@redwoodjs/api-server": "6.4.0-rc.45",
-    "@redwoodjs/graphql-server": "6.4.0-rc.45"
+    "@redwoodjs/fastify": "6.4.0-rc.45+cd3494993",
+    "@redwoodjs/graphql-server": "6.4.0-rc.45",
+    "@redwoodjs/project-config": "6.4.0-rc.45+cd3494993",
+    "chalk": "4.1.2",
+    "fastify": "^4.23.2"
   }
 }
