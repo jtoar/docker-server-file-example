@@ -1,0 +1,24 @@
+# fly.toml app configuration file generated for small-pine-440 on 2023-10-11T01:09:41+01:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "small-pine-440"
+primary_region = "lhr"
+
+[build]
+
+[deploy]
+  release_command = ".fly/release.sh"
+
+[env]
+  PORT = "8910"
+  REDWOOD_DISABLE_TELEMETRY = "1"
+
+[http_service]
+  internal_port = 8910
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
